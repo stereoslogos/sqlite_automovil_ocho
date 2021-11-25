@@ -71,7 +71,7 @@
             android:gravity="center"
             android:hint="Digite marca del auto"
             android:inputType="textPersonName"
-            android:textSize="40dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -139,7 +139,7 @@
             android:gravity="center"
             android:onClick="guardar"
             android:text="Guardar"
-            android:textSize="40dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -160,14 +160,15 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Consultar"
-            android:textSize="30dp" />
+            android:textSize="25sp"
+            android:onClick="consultar"/>
 
         <Button
             android:id="@+id/btanular"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_weight="1"
-            android:textSize="30dp"
+            android:textSize="25sp"
             android:gravity="center"
             android:text="Anular" />
     </LinearLayout>
@@ -187,7 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="35dp"
+            android:textSize="28sp"
             android:gravity="center"
             android:text="Eliminar" />
 
@@ -198,7 +199,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:onClick="limpiar"
-            android:textSize="35dp"
+            android:textSize="28sp"
             android:text="Limpiar" />
     </LinearLayout>
 
